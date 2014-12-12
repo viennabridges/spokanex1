@@ -1,0 +1,66 @@
+html {
+		border: 10px;
+		background-image: url("../img/texture.png");
+    	opacity: 0.7;
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-position:center;
+}
+
+body {
+		margin: 0;
+		font-family: 'Maiden Orange', cursive;
+		max-width: 100%;
+		min-width: 100px;
+	}
+
+	#banner {
+		width: 100%;
+		height: 20%;
+	}
+	
+	#header {
+		background-color: #51b848;
+		height: 55px;
+		box-shadow: inset 0px -3px 0px #663333;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navtainer {
+		width: 100%;
+		position: relative;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navtainer ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		height: 55px;
+		position: absolute;
+		right: 15%;
+	}
+
+	#navtainer ul li {
+		float: left;
+		height: 55px;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navtainer ul li a {
+		margin: 0;
+		padding: 0 15px 0 15px;
+		line-height: 55px;
+		text-decoration: none;
+		color: #de078b;
+		font-variant: inherit;
+		font-weight: bolder;
+	}
+a 	{color: white;}
+li	{	padding: 10%;
+		color: black; 
+		 }
+
