@@ -1,9 +1,7 @@
 html {
 		border: 10px;
 		background-image: url("../img/texture.png");
-    	opacity: 0.7;
 		background-repeat:no-repeat;
-		background-size:contain;
 		background-position:center;
 }
 
@@ -12,19 +10,25 @@ body {
 		font-family: 'Maiden Orange', cursive;
 		max-width: 100%;
 		min-width: 100px;
+		padding: 1%;
 	}
 
-	#banner {
-		width: 100%;
-		height: 20%;
+	#banner { position: absolute;
+		max-width: 100%;
+		min-width: 100px;
+		height: 30%;
 	}
 	
-	#header {
-		background-color: #51b848;
+	#header{
+		background-color: #3c3c3c;
+		border: 2px solid;
+   		border-radius: 10px;
+   		border-color: #636363;
+		padding: 10%;
 		height: 55px;
-		box-shadow: inset 0px -3px 0px #663333;
+		box-shadow: inset 0px -3px 0px  #636363;
 		padding: 0;
-		margin: 0;
+		margin: 0;2
 	}
 
 	#navtainer {
@@ -38,6 +42,8 @@ body {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
 		height: 55px;
 		position: absolute;
 		right: 15%;
@@ -53,9 +59,10 @@ body {
 	#navtainer ul li a {
 		margin: 0;
 		padding: 0 15px 0 15px;
+		text-align: center;
 		line-height: 55px;
 		text-decoration: none;
-		color: #de078b;
+		color: white;
 		font-variant: inherit;
 		font-weight: bolder;
 	}
